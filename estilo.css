@@ -1,0 +1,14 @@
+header {
+    width: 100%;
+    height: 5%;
+    background-color:rgb(137, 231, 234);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+.jumbotron {
+    width: 100%;
+    font-size: 5vh;
+    font-family: "Gill Sans", sans-serif;
+}
