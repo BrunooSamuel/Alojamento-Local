@@ -14,8 +14,22 @@ header {
 }
 
 .carrossel {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px solid rgb(137, 231, 234);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 60vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
 }
 
 .botoesPaginas {
@@ -25,5 +39,11 @@ header {
 }
 
 .linkAlojamento {
-    
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkAlojamento:hover {
+    text-decoration: none;
+    color: inherit;
 }
