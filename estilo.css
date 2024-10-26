@@ -1,38 +1,67 @@
 header {
     width: 100%;
-    height: 5%;
-    background-color:rgb(137, 231, 234);
+    height:4vh;
+    background-color:rgb(3, 130, 233);
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%;
+    font-size: 2vh;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .jumbotron {
     width: 100%;
-    font-size: 5vh;
+    font-size: 3.5rem;
     font-family: "Gill Sans", sans-serif;
 }
 
 .carrossel {
-    margin-left: 25%;
-    margin-right: 25%;
-    border: 5px solid rgb(137, 231, 234);
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid rgb(3, 130, 233);
     border-radius: 10px;
     overflow: hidden;
 }
 
 .carousel-inner {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
 }
 
 .carousel-item img {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     object-fit: cover;
 }
 
+.descricao {
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    margin-top: 4vh;
+    margin-top: 4vh;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.descricao h2 {
+    font-size: 2.5rem;
+}
+
+.descricao p {
+    font-size: 1.5rem;
+}
+
 .botoesPaginas {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.equipamentos {
     margin-top: 4vh;
     margin-bottom: 4vh;
     text-align: center;
@@ -46,4 +75,35 @@ header {
 .linkAlojamento:hover {
     text-decoration: none;
     color: inherit;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        font-size: 2.5rem;
+    }
+
+    .carrossel {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 40vh;
+        
+    }
+
+    .carousel-item img {
+        height: 40vh;
+    }
+    
+
+    .descricao {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .descricao h2 {
+        font-size: 2rem;
+    }
+
+    .descricao p {
+        font-size: 1.5rem;
+    }
 }
