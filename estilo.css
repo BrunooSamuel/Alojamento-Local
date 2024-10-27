@@ -132,11 +132,13 @@ header, footer {
 
 
 .galeria_interior{
-    margin-left: 20%;
-    margin-right: 20%;
+    display: block;
+    margin: auto;
     border: 5px solid rgb(3, 130, 233);
     border-radius: 5vh;
     overflow: hidden;
+    height: 30rem;
+    width: 30rem;
 }
 .galeria_interior .descricao{
     font-size: 14px;
@@ -151,11 +153,13 @@ header, footer {
     height: auto;
 }
 .galeria_exterior{
-    margin-left: 20%;
-    margin-right: 20%;
+    display: block;
+    margin: auto;
     border: 5px solid rgb(3, 130, 233);
     border-radius: 5vh;
     overflow: hidden;
+    height: 30rem;
+    width: 30rem;
 }
 .galeria_exterior .descricao{
     font-size: 14px;
@@ -168,11 +172,10 @@ body{
 }
 
 .button_galeria{
-    margin: 0;
-    position: relative;
-    top: 10%;
-    left: 50%;
-    background-color: #333333;
-    color:#00FF00;
-    border-radius: 5px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+    border-radius: 5vh;
 }
