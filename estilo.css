@@ -1,0 +1,180 @@
+header, footer {
+    width: 100%;
+    background-color:rgb(3, 130, 233);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 0;
+}
+
+.jumbotron {
+    width: 100%;
+    font-size: 3.5rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.carrossel {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid rgb(3, 130, 233);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 70vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.descricao {
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    margin-top: 4vh;
+    margin-top: 4vh;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.descricao h2 {
+    font-size: 2.5rem;
+}
+.descricao p {
+    font-size: 1.5rem;
+}
+
+.botoesPaginas {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.equipamentos {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.mapa {
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    margin-top: 4vh;
+    margin-top: 4vh;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.mapa h3 {
+    font-size: 2rem;
+}
+.mapa p {
+    font-size: 1.5rem;
+}
+
+.linkAlojamento {
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkAlojamento:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        font-size: 2.5rem;
+    }
+
+    .carrossel {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 40vh;
+        
+    }
+
+    .carousel-item img {
+        height: 40vh;
+    }
+    
+
+    .descricao {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .descricao h2 {
+        font-size: 2rem;
+    }
+
+    .descricao p {
+        font-size: 1.5rem;
+    }
+
+    .mapa {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+/* css para a galeria imagens */
+
+
+.galeria_interior{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid rgb(3, 130, 233);
+    border-radius: 5vh;
+    overflow: hidden;
+}
+.galeria_interior .descricao{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+} 
+h1{
+    text-align: center;
+    border:5px #000000;
+    top: 10%;
+    left: 100%;
+}
+.imagens{
+    width: 100%;
+    border-top-left-radius: 4vh;
+    border-top-right-radius: 4vh;
+    height: auto;
+}
+.galeria_exterior{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid rgb(3, 130, 233);
+    border-radius: 5vh;
+    overflow: hidden;
+}
+.galeria_exterior .descricao{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+} 
+body{
+    background-color: #333;
+}
+.button_galeria{
+    margin: 0;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    background-color: #333333;
+    color:#00FF00;
+    border-radius: 5px;
+}
