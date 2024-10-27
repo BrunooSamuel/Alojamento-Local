@@ -127,3 +127,52 @@ header, footer {
         margin-right: 5%;
     }
 }
+
+/* css para a galeria imagens */
+
+
+.galeria_interior{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid rgb(3, 130, 233);
+    border-radius: 5vh;
+    overflow: hidden;
+}
+.galeria_interior .descricao{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+} 
+
+.imagens{
+    width: 100%;
+    border-top-left-radius: 4vh;
+    border-top-right-radius: 4vh;
+    height: auto;
+}
+.galeria_exterior{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid rgb(3, 130, 233);
+    border-radius: 5vh;
+    overflow: hidden;
+}
+.galeria_exterior .descricao{
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+} 
+
+body{
+    background-color: #333;
+}
+
+.button_galeria{
+    margin: 0;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    background-color: #333333;
+    color:#00FF00;
+    border-radius: 5px;
+}
