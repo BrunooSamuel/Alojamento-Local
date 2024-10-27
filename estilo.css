@@ -82,16 +82,6 @@ header, footer {
     font-size: 1.5rem;
 }
 
-.linkAlojamento {
-    text-decoration: none;
-    color: inherit;
-}
-
-.linkAlojamento:hover {
-    text-decoration: none;
-    color: inherit;
-}
-
 @media (max-width: 768px) {
     .jumbotron {
         font-size: 2.5rem;
@@ -127,6 +117,7 @@ header, footer {
         margin-right: 5%;
     }
 }
+
 /* css para a galeria imagens */
 
 
@@ -144,12 +135,7 @@ header, footer {
     padding: 10px;
     text-align: center;
 } 
-h1{
-    text-align: center;
-    border:5px #000000;
-    top: 10%;
-    left: 100%;
-}
+
 .imagens{
     width: 100%;
     border-top-left-radius: 4vh;
@@ -170,25 +156,3 @@ h1{
     padding: 10px;
     text-align: center;
 } 
-body{
-    background-color: #333;
-}
-.button_galeria{
-<<<<<<< Updated upstream
-    margin: 0;
-    position: relative;
-    top: 10%;
-    left: 50%;
-    background-color: #333333;
-    color:#00FF00;
-    border-radius: 5px;
-}
-=======
-    display: block;
-    margin: auto;
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2vh;
-    border-radius: 5vh;
-}
->>>>>>> Stashed changes
