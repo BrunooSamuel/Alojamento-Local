@@ -82,16 +82,6 @@ header, footer {
     font-size: 1.5rem;
 }
 
-.linkAlojamento {
-    text-decoration: none;
-    color: inherit;
-}
-
-.linkAlojamento:hover {
-    text-decoration: none;
-    color: inherit;
-}
-
 @media (max-width: 768px) {
     .jumbotron {
         font-size: 2.5rem;
@@ -167,15 +157,7 @@ header, footer {
     text-align: center;
 } 
 
-body{
-    background-color: #333;
-}
-
-.button_galeria{
-    display: block;
-    margin: auto;
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2vh;
-    border-radius: 5vh;
+.container-custom {
+    margin-left: 20%;
+    margin-right: 20%;
 }
