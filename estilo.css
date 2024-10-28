@@ -116,23 +116,23 @@ header, footer {
         margin-left: 5%;
         margin-right: 5%;
     }
+
 }
 
 /* css para a galeria imagens */
 
 
-.galeria_interior{
+.galeria_interior, .galeria_exterior{
     display: block;
-    margin: auto;
-    border: 5px solid rgb(3, 130, 233);
+    margin: 1vh;
+    border: 0.8vh solid rgb(3, 130, 233);
     border-radius: 5vh;
     overflow: hidden;
-    height: 30rem;
-    width: 30rem;
 }
-.galeria_interior .descricao{
-    font-size: 14px;
-    padding: 10px;
+
+.galeria_interior .descricaoImagem, .galeria_exterior .descricaoImagem{
+    font-size: 1rem;
+    padding: 3%;
     text-align: center;
 } 
 
@@ -142,17 +142,9 @@ header, footer {
     border-top-right-radius: 4vh;
     height: auto;
 }
-.galeria_exterior{
-    display: block;
-    margin: auto;
-    border: 5px solid rgb(3, 130, 233);
-    border-radius: 5vh;
-    overflow: hidden;
-    height: 30rem;
-    width: 30rem;
-}
-.galeria_exterior .descricao{
-    font-size: 14px;
-    padding: 10px;
+
+.botoesPaginasGaleria {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     text-align: center;
-} 
+}
