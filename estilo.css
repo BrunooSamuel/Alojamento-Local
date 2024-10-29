@@ -206,6 +206,15 @@ footer a {
     text-align: center;
 }
 
+.carousel-caption {
+    background-color: rgba(190, 190, 190, 0.75);
+    padding: 1vh 1vh;
+    border-radius: 1vh;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
 .panorama{
     display: block;
     margin-left: auto;
