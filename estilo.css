@@ -7,6 +7,7 @@ header, footer {
     color: white;
     
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1vh 0;
@@ -82,6 +83,11 @@ header, footer {
     font-size: 1.5rem;
 }
 
+footer a {
+    color:white;
+
+}
+
 @media (max-width: 768px) {
     .jumbotron {
         font-size: 2.5rem;
@@ -125,7 +131,7 @@ header, footer {
 .galeria_interior, .galeria_exterior{
     display: block;
     margin: 1vh;
-    border: 0.8vh solid rgb(3, 130, 233);
+    border: 0.5vh solid rgb(3, 130, 233);
     border-radius: 5vh;
     overflow: hidden;
 }
