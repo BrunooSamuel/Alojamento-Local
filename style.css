@@ -155,6 +155,7 @@ footer a {
         font-size: 1rem;
     }
 
+    
 }
 
 /* css para a galeria imagens */
@@ -206,6 +207,15 @@ footer a {
     text-align: center;
 }
 
+.carousel-caption {
+    background-color: rgba(190, 190, 190, 0.75);
+    padding: 1vh 1vh;
+    border-radius: 1vh;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
 .panorama{
     display: block;
     margin-left: auto;
@@ -222,18 +232,20 @@ footer a {
 }
 
 .container[id='container-md']{
-    background-color: aqua;
+    background-color:#e2f6ff;
     border-top: 10px;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     border-radius: 10px;
+
 }
 
-.col[id='col-map']{
+.map{
     display: flex;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    top: 0rem;
-    bottom: 0rem;    
+    margin-bottom: auto;   
 }
 
 .phoneNumber{
@@ -246,22 +258,30 @@ footer a {
     margin-left: 0.3em;
 }
 
+#submitButton{
+    display: flex;
+    margin: auto 0 auto auto;
+}
+
 /* Custom styles for booked and available days */
 .available {
     background-color: #d4edda; /* light green */
     color: #155724;
+    text-align: center;
 }
 .booked {
     background-color: #f8d7da; /* light red */
     color: #721c24;
+    text-align: center;
 }
 .calendar-week {
-    border: 1px solid #dee2e6;
+    border: 1px solid #ebf0f4;
     padding: 10px;
 }
 .day-header {
     font-weight: bold;
     text-align: center;
     padding: 10px;
-    background-color: #f1f1f1;
+    background-color: #f8f8f8;
+    border: 1px black;
 }
