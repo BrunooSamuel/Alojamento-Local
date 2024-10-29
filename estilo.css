@@ -1,4 +1,31 @@
-header, footer {
+header {
+    width: 100%;
+    background-color:rgb(3, 130, 233);
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 0;
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    max-height: 180px;
+    color: white;
+}
+
+footer {
     width: 100%;
     background-color:rgb(3, 130, 233);
     text-align: center;
@@ -172,4 +199,64 @@ footer a {
     margin-top: 2vh;
     margin-bottom: 2vh;
     text-align: center;
+}
+
+.panorama{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:12.078rem;
+    width: 100%;
+}
+
+.helpBanner{
+    position:static;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.container[id='container-md']{
+    background-color: aqua;
+    border-top: 10px;
+    padding-top: 2rem;
+    border-radius: 10px;
+}
+
+.col[id='col-map']{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0rem;
+    bottom: 0rem;    
+}
+
+.phoneNumber{
+    position:relative;
+    margin-left: 0.3em;
+}
+
+.emailAddress{
+    position:relative;
+    margin-left: 0.3em;
+}
+
+/* Custom styles for booked and available days */
+.available {
+    background-color: #d4edda; /* light green */
+    color: #155724;
+}
+.booked {
+    background-color: #f8d7da; /* light red */
+    color: #721c24;
+}
+.calendar-week {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+}
+.day-header {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
 }
