@@ -155,6 +155,17 @@ footer a {
         font-size: 1rem;
     }
 
+    .modal-content {
+        height: 44vh;
+        margin-top: 50% !important;
+
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        position: absolute;
+        top: 28%!important;
+    }
+
     
 }
 
