@@ -118,7 +118,11 @@ footer a {
     .carousel-item img {
         height: 40vh;
     }
-    
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        position: absolute;
+        top: 26%!important;
+    }
 
     .descricao {
         margin-left: 5%;
@@ -233,14 +237,14 @@ footer a {
 }
 
 .container[id='container my-4'] .nav-link {
-    background-color: rgb(226, 246, 255); /* Cor de fundo dos botões de navegação */
+    background-color: rgb(226, 246, 255);
     font-size: 1.5rem;
     font-family: "Gill Sans", sans-serif;
     color: black;
 }
 
 .container[id='container my-4'] .nav-link.active {
-    background-color: rgb(179, 224, 255); /* Cor de fundo para o botão ativo */
+    background-color: rgb(179, 224, 255);
     font-size: 1.5rem;
     font-family: "Gill Sans", sans-serif;
     color: black;
