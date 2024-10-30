@@ -37,12 +37,6 @@ footer {
     margin-top: 2vh;
 }
 
-.jumbotron {
-    width: 100%;
-    font-size: 3.5rem;
-    font-family: "Gill Sans", sans-serif;
-}
-
 .carrossel {
     margin-left: 20%;
     margin-right: 20%;
@@ -155,6 +149,23 @@ footer a {
         font-size: 1rem;
     }
 
+    .modal-content {
+        height: 44vh;
+        margin-top: 50% !important;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        position: absolute;
+        top: 28%!important;
+    }
+
+    .container[id='container my-4'] .nav-link {
+        font-size: 1.2rem!important;
+    }
+    
+    .container[id='container my-4'] .nav-link.active {
+        font-size: 1.2rem!important;
+    }
     
 }
 
@@ -183,6 +194,7 @@ footer a {
     padding: 3%;
     text-align: center;
     font-family: "Gill Sans", sans-serif;
+    background-color: white;
 } 
 
 .imagensInterior{
@@ -237,7 +249,27 @@ footer a {
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-radius: 10px;
+}
 
+.container[id='container my-4']{
+    background-color:#e2f6ff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.container[id='container my-4'] .nav-link {
+    background-color: rgb(226, 246, 255); /* Cor de fundo dos botões de navegação */
+    font-size: 1.5rem;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
+}
+
+.container[id='container my-4'] .nav-link.active {
+    background-color: rgb(179, 224, 255); /* Cor de fundo para o botão ativo */
+    font-size: 1.5rem;
+    font-family: "Gill Sans", sans-serif;
+    color: black;
 }
 
 .map{
@@ -263,7 +295,7 @@ footer a {
     margin: auto 0 auto auto;
 }
 
-/* Custom styles for booked and available days */
+/* Estilos para dias reservados e disponiveis*/
 .available {
     background-color: #d4edda; /* light green */
     color: #155724;
