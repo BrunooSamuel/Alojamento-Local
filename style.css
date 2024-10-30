@@ -107,9 +107,6 @@ footer a {
 }
 
 @media (max-width: 768px) {
-    .jumbotron {
-        font-size: 2.5rem;
-    }
 
     .carrossel {
         margin-left: 5%;
