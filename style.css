@@ -149,16 +149,6 @@ footer a {
         font-size: 1rem;
     }
 
-    .modal-content {
-        height: 44vh;
-        margin-top: 50% !important;
-    }
-
-    .carousel-control-next-icon, .carousel-control-prev-icon{
-        position: absolute;
-        top: 28%!important;
-    }
-
     .container[id='container my-4'] .nav-link {
         font-size: 1.2rem!important;
     }
@@ -189,7 +179,7 @@ footer a {
     overflow: hidden;
 }
 
-.galeria_interior .descricaoImagem, .galeria_exterior .descricaoImagem{
+.galeria_interior .descricaoImagem {
     font-size: 1rem;
     padding: 3%;
     text-align: center;
@@ -213,20 +203,7 @@ footer a {
     object-fit: cover;
 }
 
-.botoesPaginasGaleria {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    text-align: center;
-}
 
-.carousel-caption {
-    background-color: rgba(190, 190, 190, 0.75);
-    padding: 1vh 1vh;
-    border-radius: 1vh;
-    text-align: center;
-    margin: auto;
-    width: 40%;
-}
 
 .panorama{
     display: block;
